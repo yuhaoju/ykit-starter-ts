@@ -20,4 +20,4 @@ $ ykit pack -m
 ```
 
 ## 关于 ykit
-访问 https://ykit.ymfe.org 来获取更多文档。
+访问 https://ykit.ymfe.org 来获取更多文档
