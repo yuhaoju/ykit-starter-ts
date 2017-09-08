@@ -1,4 +1,5 @@
 declare namespace webapi {
+
     // 约定数据返回格式
     export interface IResponse<T> {
         // 成功
