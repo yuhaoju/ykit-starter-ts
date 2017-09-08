@@ -17,6 +17,7 @@ export namespace http {
         }
     }
 
+    // 创建模块 A 的接口
     export namespace moduleA {
         type Req_getItemById = webapi.moduleA.request.getItemById;
         type Res_getItemById = webapi.moduleA.response.getItemById;
