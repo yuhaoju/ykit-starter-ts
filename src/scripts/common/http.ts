@@ -1,9 +1,8 @@
-import * as $ from 'jquery';
-
 export namespace http {
     // 工厂模式创建 API
     function createAPI<TReq, TRes>(url: string, method?: string) {
         return function (req: TReq, success: (res: TRes) => void, error?, complete?) {
+            // jquery import as global variable
             $.ajax({
                 url: url,
                 method: method || 'GET',
